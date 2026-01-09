@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post-Shift Reset | The Calm Network</title>
+    <meta name="description" content="A 10-minute guided reset designed to ground the healthcare nervous system." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+
+      /* Custom overrides for Kit (ConvertKit) Forms */
+      
+      /* Animation Definition */
+      @keyframes softFadeUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      /* SUCCESS MESSAGE CONTAINER 
+         Refined to 'Professional Sanctuary' aesthetic: Dark Glass, Subtle, Elegant.
+      */
+      .formkit-alert-success {
+        /* Remove default colors */
+        background: rgba(255, 255, 255, 0.03) !important;
+        background-color: rgba(255, 255, 255, 0.03) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        
+        /* Typography & Layout */
+        color: #ecfdf5 !important; /* Soft Sage / Off-White */
+        border-radius: 0.5rem !important;
+        padding: 2rem !important;
+        margin-top: 1rem !important;
+        text-align: center !important;
+        box-shadow: none !important;
+        
+        /* Animation */
+        animation: softFadeUp 1.2s ease-out forwards !important;
+      }
+
+      /* SUCCESS MESSAGE TEXT REPLACEMENT
+         Technique: Hide the default text (font-size: 0) and inject new text via pseudo-element.
+      */
+      .formkit-alert-success > p {
+        font-size: 0 !important; /* Hide original generic text */
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      .formkit-alert-success > p::after {
+        content: "Almost there... Check your inbox to confirm your email and unlock your 10-minute reset. (Don't forget to check your spam folder just in case.)";
+        
+        /* Visible Text Styling */
+        display: block;
+        font-size: 1rem !important;
+        font-family: 'Inter', sans-serif !important;
+        line-height: 1.6 !important; /* Giving words room to breathe */
+        font-weight: 500 !important; /* Bold/Medium for emphasis */
+        color: #ecfdf5 !important;
+        letter-spacing: 0.01em !important;
+      }
+
+      /* INPUT FIELDS
+         Dark, semi-transparent, merging with the card.
+      */
+      .formkit-input {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        color: white !important;
+        border-radius: 0.5rem !important;
+        font-family: 'Inter', sans-serif !important;
+        padding: 12px 16px !important;
+        font-size: 0.95rem !important;
+        transition: all 0.3s ease !important;
+      }
+      .formkit-input:focus {
+        border-color: rgba(16, 185, 129, 0.5) !important; /* Emerald-500 */
+        outline: none !important;
+        background-color: rgba(0, 0, 0, 0.3) !important;
+      }
+      .formkit-input::placeholder {
+        color: rgba(255, 255, 255, 0.3) !important;
+        font-weight: 300 !important;
+      }
+      
+      /* SUBMIT BUTTON
+         Forest Emerald to deep Green transition.
+      */
+      .formkit-submit {
+        background-color: #059669 !important; /* emerald-600 */
+        border-radius: 9999px !important;
+        font-weight: 500 !important;
+        letter-spacing: 0.025em !important;
+        padding: 12px 24px !important;
+        margin-top: 8px !important;
+        width: 100% !important;
+        transition: background-color 0.3s ease !important;
+      }
+      .formkit-submit:hover {
+        background-color: #047857 !important; /* emerald-700 */
+      }
+      
+      /* Hide 'Built with Kit' branding */
+      .formkit-powered-by {
+        display: none !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
